@@ -1,8 +1,21 @@
 {
-    "nome": "henrique",
-    "email":"henrique.dsvlima@gmail.com",
-    "cpf":"446.557.158-55",
-    "pis": 14587256987,
-    "senha":"bleach322"
-
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "henrique",
+      "email": "henrique.dsvlima@gmail.com",
+      "endereço": {
+        "pais": "Brasil",
+        "estado": "São paulo",
+        "município": "Itaquaquecetuba",
+        "cep": "08588-310",
+        "rua": "Estrada da Promissão",
+        "numero": "107",
+        "complemento": "Casa"
+      },
+      "cpf": "446.557.158-55",
+      "pis": "14587256987",
+      "senha": "bleach322"
+    }
+  ]
 }

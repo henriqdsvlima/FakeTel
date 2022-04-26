@@ -1,0 +1,16 @@
+.sidenav {
+    background-color: #f0f0f5;
+    a {
+        color: #000;
+    }:hover {
+        color: #5705F0;
+        transition: ease-in 400ms;
+    }
+    i {
+        padding: 14px;
+    }
+    .content {
+        padding: 16px;
+        background: white;
+    }
+}

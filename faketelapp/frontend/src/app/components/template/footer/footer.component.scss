@@ -1,0 +1,17 @@
+.footer {
+    background-color: #f0f0f5;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+    a {
+        justify-content: flex-end;
+        text-decoration: none;
+        &:hover{
+            color: #5705F0;
+            transition: 400ms;
+        }
+    } 
+    
+}
