@@ -1,5 +1,5 @@
 from curses.ascii import US
-import email
+
 from fastapi import FastAPI
 
 from pydantic import BaseModel
@@ -47,3 +47,4 @@ def get_user_id(id_usuario: int):
 def insere_usuario(user: Usuario):
     base_dados.append(user)
     return user
+

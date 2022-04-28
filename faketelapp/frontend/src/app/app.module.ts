@@ -10,6 +10,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component' 
 
 //material angular
+import {MatExpansionModule} from '@angular/material/expansion';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatListModule} from '@angular/material/list'
 import  {MatSidenavModule} from'@angular/material/sidenav';
@@ -17,6 +18,9 @@ import { HomeComponent } from './views/home/home.component'
 import {MatCardModule} from '@angular/material/card';
 import { CadastroUsuarioComponent } from './views/cadastro-usuario/cadastro-usuario.component';
 import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field'
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatInputModule} from '@angular/material/input'
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +40,10 @@ import {MatButtonModule} from '@angular/material/button';
     MatToolbarModule,
     MatListModule,
     MatSidenavModule,
+    MatExpansionModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatDatepickerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

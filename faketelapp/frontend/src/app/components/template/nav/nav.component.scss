@@ -1,5 +1,7 @@
 .sidenav {
     background-color: #f0f0f5;
+    width: 13%;
+    position: fixed;
     a {
         color: #000;
     }:hover {
@@ -10,7 +12,7 @@
         padding: 14px;
     }
     .content {
-        padding: 16px;
+        padding: 30px;
         background: white;
     }
 }
