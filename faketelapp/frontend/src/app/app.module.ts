@@ -16,7 +16,7 @@ import {MatListModule} from '@angular/material/list'
 import  {MatSidenavModule} from'@angular/material/sidenav';
 import { HomeComponent } from './views/home/home.component'
 import {MatCardModule} from '@angular/material/card';
-import { CadastroUsuarioComponent } from './views/cadastro-usuario/cadastro-usuario.component';
+import { PerfilUsuarioComponent } from './views/perfil-usuario/perfil-usuario.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field'
 import {MatDatepickerModule} from '@angular/material/datepicker';
@@ -31,7 +31,7 @@ import {MatInputModule} from '@angular/material/input';
     FooterComponent,
     NavComponent,
     HomeComponent,
-    CadastroUsuarioComponent,
+    PerfilUsuarioComponent,
   ],
   imports: [
     BrowserModule,

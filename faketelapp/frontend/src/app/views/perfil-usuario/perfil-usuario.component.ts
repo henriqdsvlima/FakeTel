@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-cadastro-usuario',
-  templateUrl: './cadastro-usuario.component.html',
-  styleUrls: ['./cadastro-usuario.component.scss']
+  templateUrl: './perfil-usuario.component.html',
+  styleUrls: ['./perfil-usuario.component.scss']
 })
 
-export class CadastroUsuarioComponent implements OnInit {
+export class PerfilUsuarioComponent implements OnInit {
   step = 0;
   constructor(private router:Router) { }
 
@@ -27,8 +27,5 @@ export class CadastroUsuarioComponent implements OnInit {
     this.step--;
   }
 
-  navigateToUserCreate(): void {
-    this.router.navigate(['/cadastro/criar-usuario'])
-  }
 
 }
