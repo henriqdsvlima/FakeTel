@@ -1,8 +1,15 @@
 #coding: UTF-8
+from datetime import timedelta
 from flask import Blueprint, Flask, request, jsonify, abort
+from flask_cors import CORS
+
 from flask.views import MethodView
 from models.user import Usuarios, db
+
 app = Flask(__name__)
+app.secret_key = "secret_key"
+app.config['PERMANENT_SESSION_LIFETIME'] =  timedelta(minutes=10)
+CORS = app()
 
 user = Blueprint('user',__name__)
 @app.route("/")
