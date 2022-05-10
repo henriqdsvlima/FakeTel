@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 
 export class PerfilUsuarioComponent implements OnInit {
   step = 0;
+  
   constructor(private router:Router) { }
 
   ngOnInit(): void {

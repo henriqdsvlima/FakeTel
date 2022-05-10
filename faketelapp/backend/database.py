@@ -1,6 +1,5 @@
-from flask import Flask
+from app import app
 from flask_sqlalchemy import SQLAlchemy
-app = Flask(__name__)
 
 db = SQLAlchemy(app)
 app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://root:bleach123@localhost/faketel'

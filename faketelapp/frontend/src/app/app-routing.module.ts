@@ -1,4 +1,3 @@
-import { CriarUsuarioComponent } from './components/usuario/criar-usuario/criar-usuario.component';
 import { PerfilUsuarioComponent } from './views/perfil-usuario/perfil-usuario.component';
 import { HomeComponent } from './views/home/home.component';
 import { NgModule } from '@angular/core';
